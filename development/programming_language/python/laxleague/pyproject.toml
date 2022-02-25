@@ -16,15 +16,71 @@ include = [
     { path = "tests", format = "sdist" }
 ]
 
+
 [tool.poetry.scripts]
 hello = "laxleague.hello:main"
+
 
 [tool.poetry.build]
 generate-setup-file = false
 
+
+[tool.poetry.dependencies]
+python = "^3.7"  # Compatible python versions must be declared here
+
+packaging = "^21.3"
+pkginfo = "^1.8.2"
+toml = "^0.10.2"
+requests = "^2.27.1"
+requests-toolbelt = "^0.9.1"
+mypy = "^0.931"
+
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.17.0"
+pytest = "^7.0.1"
+pytest-cov = "^3.0.0"
+pyproject-flake8 = "^0.0.1-alpha.2"
+
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.isort]
+combine_as_imports = true
+extend_skip = ["setup.py"]
+force_single_line = true
+lines_after_imports = 2
+lines_between_types = 1
+profile = "black"
+py_version = 38
+src_paths = ["src", "tests"]
+
+
+[tool.black]
+experimental_string_processing = true
+force-exclude = """
+.*/setup.py$
+"""
+target-version = ["py38"]
+
+
+[tool.mypy]
+check_untyped_defs = true
+files = ["src", "tests"]
+ignore_missing_imports = true
+python_version = 3.8
+show_error_codes = true
+strict_equality = true
+strict = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+warn_unused_ignores = true
+
 
 [tool.coverage.report]
 exclude_lines = [
@@ -32,10 +88,39 @@ exclude_lines = [
     "if TYPE_CHECKING:"
 ]
 
-[tool.poetry.dependencies]
-python = "^3.7"  # Compatible python versions must be declared here
-toml = "0.10.2"
 
-[tool.poetry.dev-dependencies]
-pytest = "7.0.1"
-pytest-cov = "3.0.0"
+[tool.flake8]
+min_python_version = 3.8
+max-line-length = 88
+ban-relative-imports = true
+# flake8-use-fstring: https://github.com/MichaelKim0407/flake8-use-fstring#--percent-greedy-and---format-greedy
+format-greedy = 1
+inline-quotes = ["double"]
+# Allow omission of a return type hint for __init__ if at least one argument is annotated
+# used by flake8-annotations
+mypy-init-return = true
+enable-extensions = ["TC", "TC2"]
+type-checking-exempt-modules = ["typing", "typing-extensions"]
+eradicate-whitelist-extend = "^-.*;"
+extend-ignore = [
+    # ANN101 Missing type annotation for self in method
+    "ANN101",
+    # Q000 Double quotes found but single quotes preferred
+    "Q000",
+]
+#per-file-ignores = [
+#    # F401: Module imported by unused (non-implicit modules)
+#    # TC002: Move third-party import '...' into a type-checking block
+#    __init__.py:F401, TC002,
+#    # ANN201: Missing return type annotation for public function
+#    tests/test_*:ANN201
+#    tests/**/test_*:ANN201
+#]
+#extend-exclude = [
+#    # Frozen and not subject to change in this repo:
+#    get-poetry.py,
+#    install-poetry.py,
+#    # External to the project's coding standards:
+#    tests/fixtures/*,
+#    tests/**/fixtures/*,
+#]

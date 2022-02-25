@@ -1,5 +1,5 @@
 [flake8]
-min_python_version = 3.7.0
+min_python_version = 3.8
 max-line-length = 88
 ban-relative-imports = true
 # flake8-use-fstring: https://github.com/MichaelKim0407/flake8-use-fstring#--percent-greedy-and---format-greedy
@@ -20,6 +20,7 @@ extend-ignore =
     ANN101,
     # ANN102: Missing type annotation for cls in classmethod
     ANN102,
+    Q000
 per-file-ignores =
     # F401: Module imported by unused (non-implicit modules)
     # TC002: Move third-party import '...' into a type-checking block

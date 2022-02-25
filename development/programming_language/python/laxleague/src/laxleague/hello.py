@@ -1,9 +1,10 @@
-def hello():
+def hello() -> None:
     print("Hello World!")
 
 
-def main():
+def main() -> int:
     hello()
+    return 0
 
 
 if __name__ == "__main__":

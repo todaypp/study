@@ -1,7 +1,7 @@
 import sys
 
+from laxleague.hello import main
+
 
 if __name__ == "__main__":
-    from laxleague.hello import main
-
     sys.exit(main())
