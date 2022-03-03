@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "study-tdd-laxleague"
+name = "laxleague"
 version = "0.1.0"
 description = "The description of the package"
 license = "MIT"
@@ -22,7 +22,7 @@ hello = "laxleague.hello:main"
 
 
 [tool.poetry.build]
-generate-setup-file = false
+generate-setup-file = true
 
 
 [tool.poetry.dependencies]
