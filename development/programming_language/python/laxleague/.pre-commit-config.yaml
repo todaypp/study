@@ -114,7 +114,7 @@ repos:
 #        name: run-tests
 #        stages: [ manual ]
 #        types: [ python ]
-#        entry: pytest ./tests/
+#        entry: poetry run pytest tests
 #        language: python
 #        additional_dependencies:
 #          - pre-commit

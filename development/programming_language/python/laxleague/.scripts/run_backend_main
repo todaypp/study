@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+uvicorn laxleague.backend.main:app --reload
