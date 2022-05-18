@@ -4,10 +4,10 @@
 minimum_pre_commit_version: 2.15.0
 exclude: "^$"
 fail_fast: true
-default_language_version:
-  python: python3.8
 ci:
   autofix_prs: false
+default_language_version:
+  python: python3.8
 
 repos:
 
@@ -112,7 +112,7 @@ repos:
 #    hooks:
 #      - id: run-tests
 #        name: run-tests
-#        stages: [ manual ]
+#        stages: [ manual, push ]
 #        types: [ python ]
 #        entry: poetry run pytest tests
 #        language: python
