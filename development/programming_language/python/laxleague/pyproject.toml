@@ -40,7 +40,7 @@ uvicorn = { extras = ["standard"], version = "^0.17.6" }
 [tool.poetry.dev-dependencies]
 pre-commit = "^2.19.0"
 pytest = "^7.0.1"
-pytest-cov = "^3.0.0"
+pytest-cov = "^4.0.0"
 
 
 [build-system]
