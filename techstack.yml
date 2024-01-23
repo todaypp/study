@@ -1,0 +1,351 @@
+repo_name: todaypp/study
+report_id: 9c76c04ca9a9bd5ceb0fdfaa3837d290
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T13:15:13+00:00'
+requested_by: todaypp
+provider: github
+branch: main
+detected_tools_count: 26
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/todaypp/study
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/todaypp/study
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/todaypp/study
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/todaypp/study
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: 7.3.1
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/devops/gradle/sample_structuring_software_projects-kotlin-dsl/platforms/plugins-platform/build.gradle.kts
+  detection_source: development/devops/gradle/sample_structuring_software_projects-kotlin-dsl/server-application/app/build.gradle.kts
+  last_updated_by: Sumin Son
+  last_updated_on: 2023-05-25 17:23:38.000000000 Z
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.76.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/programming_language/python/laxleague/poetry.lock
+  detection_source: development/programming_language/python/laxleague/pyproject.toml
+  last_updated_by: Sumin Son - clvswft03@ubuntu-desktop
+  last_updated_on: 2022-02-25 07:58:34.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/devops/docker/swarm/stackdemo/docker-compose.yml
+  detection_source: development/devops/docker/swarm/stackdemo/docker-compose.yml
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-08-02 13:41:45.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/todaypp/study
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/todaypp/study
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/devops/gradle/sample_structuring_software_projects-kotlin-dsl/gradlew
+  detection_source: development/devops/gradle/sample_structuring_software_projects-kotlin-dsl/gradlew
+  last_updated_by: Sumin Son
+  last_updated_on: 2023-05-25 17:23:38.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/programming_language/python/laxleague/pyproject.toml
+  detection_source: development/programming_language/python/laxleague/pyproject.toml
+  last_updated_by: Sumin Son - clvswft03@ubuntu-desktop
+  last_updated_on: 2022-02-25 07:58:34.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/devops/docker/swarm/stackdemo/docker-compose.yml
+  detection_source: development/devops/docker/swarm/stackdemo/docker-compose.yml
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-08-02 13:41:45.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/devops/gradle/sample_structuring_software_projects-kotlin-dsl/server-application/app/build.gradle.kts
+  detection_source: development/devops/gradle/sample_structuring_software_projects-kotlin-dsl/server-application/app/build.gradle.kts
+  last_updated_by: Sumin Son
+  last_updated_on: 2023-05-25 17:23:38.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/todaypp/study
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/todaypp/study
+  detection_source: Repo Metadata
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  version: '0.950'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/programming_language/python/laxleague/poetry.lock
+  detection_source: development/programming_language/python/laxleague/pyproject.toml
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-05-07 21:37:53.000000000 Z
+- name: packaging
+  description: Core utilities for Python packages
+  package_url: https://pypi.org/project/packaging
+  version: '21.3'
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19894/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/programming_language/python/laxleague/poetry.lock
+  detection_source: development/programming_language/python/laxleague/pyproject.toml
+  last_updated_by: Sumin Son - clvswft03@ubuntu-desktop
+  last_updated_on: 2022-02-25 10:24:37.000000000 Z
+- name: pkginfo
+  description: Query metadatdata from sdists / bdists / installed packages
+  package_url: https://pypi.org/project/pkginfo
+  version: 1.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20081/default_37d5d9a0fd58ccb83ff41d58247ae840c789ee9e.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/programming_language/python/laxleague/poetry.lock
+  detection_source: development/programming_language/python/laxleague/pyproject.toml
+  last_updated_by: Sumin Son - clvswft03@ubuntu-desktop
+  last_updated_on: 2022-02-25 10:24:37.000000000 Z
+- name: pre-commit
+  description: A framework for managing and maintaining multi-language pre-commit
+    hooks
+  package_url: https://pypi.org/project/pre-commit
+  version: 2.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20560/default_d975dcf643a054134f39226d51d4a5fea9320efe.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/programming_language/python/laxleague/poetry.lock
+  detection_source: development/programming_language/python/laxleague/pyproject.toml
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-05-07 21:37:53.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  version: 7.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/programming_language/python/laxleague/poetry.lock
+  detection_source: development/programming_language/python/laxleague/pyproject.toml
+  last_updated_by: Sumin Son - clvswft03@ubuntu-desktop
+  last_updated_on: 2022-02-25 10:24:37.000000000 Z
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/programming_language/python/laxleague/poetry.lock
+  detection_source: development/programming_language/python/laxleague/pyproject.toml
+  last_updated_by: Sumin Son - clvswft03@ubuntu-desktop
+  last_updated_on: 2022-02-25 10:24:37.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.27.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/programming_language/python/laxleague/poetry.lock
+  detection_source: development/programming_language/python/laxleague/pyproject.toml
+  last_updated_by: Sumin Son - clvswft03@ubuntu-desktop
+  last_updated_on: 2022-02-25 10:24:37.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: requests-toolbelt
+  description: A utility belt for advanced users of python-requests
+  package_url: https://pypi.org/project/requests-toolbelt
+  version: 0.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20128/default_3146a05cf4dd77d8b50cff25709373c081ac5053.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/programming_language/python/laxleague/poetry.lock
+  detection_source: development/programming_language/python/laxleague/pyproject.toml
+  last_updated_by: Sumin Son - clvswft03@ubuntu-desktop
+  last_updated_on: 2022-02-25 10:24:37.000000000 Z
+- name: toml
+  description: Python Library for Tom's Obvious, Minimal Language
+  package_url: https://pypi.org/project/toml
+  version: 0.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19912/default_bc82f0b22ca8fd942e21c317967f4ab61f43eb2c.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/programming_language/python/laxleague/poetry.lock
+  detection_source: development/programming_language/python/laxleague/pyproject.toml
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-05-07 21:37:53.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.17.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/programming_language/python/laxleague/poetry.lock
+  detection_source: development/programming_language/python/laxleague/pyproject.toml
+  last_updated_by: Sumin Son
+  last_updated_on: 2022-05-08 08:48:20.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/todaypp/study/blob/main/development/programming_language/go/tutorial/hello/go.sum
+  detection_source: development/programming_language/go/tutorial/hello/go.mod
+  last_updated_by: Sumin Son
+  last_updated_on: 2023-05-25 17:22:22.000000000 Z
