@@ -31,7 +31,7 @@ mypy = "^0.950"
 packaging = "^21.3"
 pkginfo = "^1.8.2"
 python = "^3.7"  # Compatible python versions must be declared here
-requests = "^2.27.1"
+requests = "^2.31.0"
 requests-toolbelt = "^0.9.1"
 toml = "^0.10.2"
 uvicorn = { extras = ["standard"], version = "^0.17.6" }
