@@ -26,7 +26,7 @@ generate-setup-file = true
 
 
 [tool.poetry.dependencies]
-fastapi = "^0.76.0"
+fastapi = "^0.110.0"
 mypy = "^0.950"
 packaging = "^21.3"
 pkginfo = "^1.8.2"
