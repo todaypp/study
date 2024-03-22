@@ -34,7 +34,7 @@ python = "^3.7"  # Compatible python versions must be declared here
 requests = "^2.27.1"
 requests-toolbelt = "^0.9.1"
 toml = "^0.10.2"
-uvicorn = { extras = ["standard"], version = "^0.17.6" }
+uvicorn = { extras = ["standard"], version = "^0.29.0" }
 
 
 [tool.poetry.dev-dependencies]
